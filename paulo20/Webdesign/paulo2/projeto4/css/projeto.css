@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(letras/roman_sd/Roman\ SD.ttf);
+}
+
+@font-face {
+    font-family: topbar;
+    src: url(letras/collegiateflf/CollegiateOutlineFLF.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+.menu {
+    text-align: center;
+}
+
+a {
+    font-family: topbar;
+    color: rgb(0, 174, 255);
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 200px;
+}
+
+h1 {
+    color: white;
+    font-family: subtitulo;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-color: rgb(0, 174, 255);
+}
